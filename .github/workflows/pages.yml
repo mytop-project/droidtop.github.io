@@ -16,8 +16,8 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  INDEX: https://raw.githubusercontent.com/droidtop/droidtop-platforms/main/droidtop-plugins/index.json
-  REGISTRY: https://raw.githubusercontent.com/Droidtop/droidtop/main/plugin-host/src/main/kotlin/dev/droidtop/pluginhost/PluginPermissions.kt
+  INDEX: https://raw.githubusercontent.com/mytop-project/droidtop-platforms/main/droidtop-plugins/index.json
+  REGISTRY: https://raw.githubusercontent.com/mytop-project/droidtop/main/plugin-host/src/main/kotlin/dev/droidtop/pluginhost/PluginPermissions.kt
 
 jobs:
   build:

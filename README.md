@@ -7,7 +7,7 @@ The web side of droidtop's plugin catalog, published at <https://droidtop.github
   "Install in droidtop" button.
 - **`/add-catalog?address=<https address>`** and **`/install-plugin?catalog=<https address>&id=<plugin id>`**
   are the https form of droidtop's two links (`droidtop://add-catalog`, `droidtop://install-plugin`;
-  Droidtop/droidtop `docs/SPEC.md` 12a). The page checks the address (an `https:` URL with a host and no
+  mytop-project/droidtop `docs/SPEC.md` 12a). The page checks the address (an `https:` URL with a host and no
   credentials; a plugin id of letters, digits, `.`, `_`, `-`), shows it in full next to an "Open in
   droidtop" button and a "Copy address" fallback, and nothing more. The review and its Accept are in the
   app; a link can neither add a catalog nor install a plugin by itself.
